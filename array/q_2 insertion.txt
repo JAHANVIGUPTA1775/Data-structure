@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+    int size,n,p;
+    int arr[10];
+    printf("Enter number of elements: ");
+    scanf("%d",&size);
+    printf("Enter the elements: ");
+    for(int i=0;i<size;i++){
+        scanf("%d",&arr[i]);
+    }
+    printf("Enter the Element to enter: ");
+    scanf("%d",&n);
+    printf("Enter the position: ");
+    scanf("%d",&p);
+    for(int i=size;i>=p;i--){
+        arr[i]=arr[i-1];
+    }
+    arr[p]=n;
+    for(int i=0;i<size+1;i++){
+        printf("%d ",arr[i]);
+    }
+}
