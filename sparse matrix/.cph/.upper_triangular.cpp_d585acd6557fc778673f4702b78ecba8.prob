@@ -1,0 +1,1 @@
+{"name":"Local: upper_triangular","url":"d:\\Study\\2nd Year\\DSA Lab\\sparse_matrix\\upper_triangular.cpp","tests":[{"id":1676719839748,"input":"4 4\n2 2\n1 2 3 4\n0 1 2 3\n0 0 1 2\n0 0 0 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Study\\2nd Year\\DSA Lab\\sparse_matrix\\upper_triangular.cpp","group":"local","local":true}
